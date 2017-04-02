@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1">
+    <TextView
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/textView" android:layout_weight="0.05"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Список Wifi сетей"
+            android:id="@+id/button" android:onClick="onClickBtn"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText" android:layout_gravity="right" android:layout_weight="0.05"/>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="211dp"
+            android:id="@+id/listView"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Статус подключения"
+            android:id="@+id/button2" android:layout_weight="0.05" android:onClick="onClickBtn"/>
+</LinearLayout>
+
